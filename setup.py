@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='chistes_gallegos',
-      version='0.1',
+      version='0.2',
       description='los mejores chistes gallegos',
       url='https://github.com/victor-fdez/chistes-gallegos',
       author='victor-fdez',
