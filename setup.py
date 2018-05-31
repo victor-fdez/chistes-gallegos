@@ -2,10 +2,10 @@ from setuptools import setup
 
 def readme():
     with open('README.md') as f:
-	return f.read()
+        return f.read()
 
 setup(name='chistes_gallegos',
-      version='0.3',
+      version='0.5',
       description='los mejores chistes gallegos',
       long_description=readme(),
       long_description_content_type='text/markdown',
@@ -15,5 +15,6 @@ setup(name='chistes_gallegos',
       license='MIT',
       python_requires='~=3.6',
       packages=['chistes_gallegos'],
+      scripts=['bin/tell-joke'],
       zip_safe=False)
 
